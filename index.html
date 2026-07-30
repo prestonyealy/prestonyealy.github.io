@@ -148,6 +148,7 @@
           <span class="image-stamp">Case study / 01</span>
         </a>
         <div class="featured-copy">
+          <span class="resume-project-badge">Résumé-selected project</span>
           <div class="project-meta">
             <span>Mechanical design</span>
             <span>SolidWorks · Kinematics · Drawings</span>
@@ -158,49 +159,52 @@
         </div>
       </article>
 
-      <div class="project-ledger" aria-label="Additional projects">
-        <article>
-          <span class="ledger-number">02</span>
-          <div><p>Automation / Data</p><h3>Engineering Test-Report Automation</h3></div>
-          <p>Workflow architecture, validation strategy, and measured cycle-time improvement.</p>
-          <span class="ledger-status">Proprietary work / public summary pending</span>
-        </article>
-        <article>
-          <span class="ledger-number">03</span>
-          <div><p>Mechatronics / V&amp;V</p><h3>Rocky the Bull Educational Robot</h3></div>
-          <p>3D-printed enclosure, dual motors, ultrasonic sensing, design selection, and a verification gap analysis.</p>
-          <a class="ledger-status" href="projects/rocky.html">Read case study &rarr;</a>
-        </article>
-        <article>
-          <span class="ledger-number">04</span>
-          <div><p>MATLAB / Numerical methods</p><h3>Computational Engineering Methods</h3></div>
-          <p>Pipe-flow data, heat conduction, root finding, interpolation, regression, integration, and ODE solving.</p>
-          <a class="ledger-status" href="projects/computational-methods.html">Read case study &rarr;</a>
-        </article>
-        <article>
-          <span class="ledger-number">05</span>
-          <div><p>Engineering software</p><h3>Ideal Gas Property Interpolator</h3></div>
-          <p>Interactive SI and English air-table lookup with bracketing, interpolation, bounds handling, and callback control.</p>
-          <a class="ledger-status" href="projects/ideal-gas-interpolator.html">Read case study &rarr;</a>
-        </article>
-        <article>
-          <span class="ledger-number">06</span>
-          <div><p>Thermal systems / Economics</p><h3>Combined-Cycle Power Analysis</h3></div>
-          <p>Collaborative Brayton-Rankine model connecting component states, electrical output, fuel flow, and daily cost.</p>
-          <a class="ledger-status" href="projects/combined-cycle.html">Read case study &rarr;</a>
-        </article>
-        <article>
-          <span class="ledger-number">07</span>
-          <div><p>Mechanism design / Test</p><h3>Single-Action Food Chopper</h3></div>
-          <p>Five-plus-link prototype with measurable force and cut-consistency targets—and an honest validation gap.</p>
-          <a class="ledger-status" href="projects/food-chopper.html">Read case study &rarr;</a>
-        </article>
-        <article>
-          <span class="ledger-number">08</span>
-          <div><p>Embedded measurement</p><h3>RC Transient Data Logger</h3></div>
-          <p>Arduino-controlled charge/discharge acquisition, exponential response plotting, and anomaly investigation.</p>
-          <a class="ledger-status" href="projects/rc-transient.html">Read case study &rarr;</a>
-        </article>
+      <div class="collection-heading">
+        <p class="kicker">Also on the résumé</p>
+        <p>These are the projects I lead with professionally: a tested mechatronic prototype and an embedded system built from circuit to firmware.</p>
+      </div>
+      <div class="resume-project-grid">
+        <a class="project-card project-card--rocky" href="projects/rocky.html">
+          <figure><img src="assets/projects/rocky/integration-test.jpg" alt="Rocky the Bull robot during chassis integration and testing" loading="lazy"><figcaption>02 / Prototype</figcaption></figure>
+          <div><p>Résumé project / Mechatronics</p><h3>Rocky the Bull</h3><span>Follow the prototype from enclosure draft to verification &rarr;</span></div>
+        </a>
+        <a class="project-card project-card--arduino" href="projects/arduino-memory-game.html">
+          <figure class="card-circuit" aria-label="Abstract circuit board diagram"><i></i><i></i><i></i><i></i><b></b><b></b><b></b><figcaption>03 / Embedded system</figcaption></figure>
+          <div><p>Résumé project / Arduino + C++</p><h3>Sequence Memory Game</h3><span>Trace the circuit, firmware states, and player feedback loop &rarr;</span></div>
+        </a>
+      </div>
+
+      <aside class="confidential-work">
+        <span>Experience / Automation</span>
+        <div><h3>Engineering Test-Report Automation</h3><p>Reduced a multi-source reporting workflow from as much as four hours to under seven minutes.</p></div>
+        <strong>Impact public. Implementation proprietary.</strong>
+      </aside>
+
+      <div class="collection-heading supporting-heading">
+        <p class="kicker">Supporting engineering archive</p>
+        <p>Focused studies in computation, thermodynamics, mechanisms, and instrumentation. Each entry is organized around the evidence it can actually support.</p>
+      </div>
+      <div class="project-mosaic" aria-label="Supporting project case studies">
+        <a class="project-card project-card--computational" href="projects/computational-methods.html">
+          <figure><img src="assets/projects/computational/velocity-plot.png" alt="MATLAB comparison of theoretical and experimental pipe velocity" loading="lazy"><figcaption>04 / Computation</figcaption></figure>
+          <div><p>MATLAB / Numerical methods</p><h3>Engineering Methods</h3><span>See where the math agreed—and where the model lied &rarr;</span></div>
+        </a>
+        <a class="project-card project-card--software" href="projects/ideal-gas-interpolator.html">
+          <figure><img src="assets/projects/ideal-gas/app-screenshot.png" alt="Ideal gas property interpolation application interface" loading="lazy"><figcaption>05 / Software</figcaption></figure>
+          <div><p>App Designer / Thermodynamics</p><h3>Property Interpolator</h3><span>Trace one input through the app's calculation path &rarr;</span></div>
+        </a>
+        <a class="project-card project-card--thermal" href="projects/combined-cycle.html">
+          <figure><img src="assets/projects/thermal/ts-diagram.png" alt="Temperature-entropy diagram for a combined power cycle" loading="lazy"><figcaption>06 / System model</figcaption></figure>
+          <div><p>Thermal systems / Economics</p><h3>Combined Cycle</h3><span>Turn state points into megawatts and daily fuel cost &rarr;</span></div>
+        </a>
+        <a class="project-card project-card--mechanism" href="projects/food-chopper.html">
+          <figure class="card-mechanism" aria-label="Abstract linkage diagram"><i></i><i></i><i></i><b></b><b></b><figcaption>07 / Mechanism</figcaption></figure>
+          <div><p>Kinematics / Verification</p><h3>Food Chopper</h3><span>See the requirements—and the test the team still owed &rarr;</span></div>
+        </a>
+        <a class="project-card project-card--experiment" href="projects/rc-transient.html">
+          <figure><img src="assets/projects/rc-transient/decay-graph.jpg" alt="Measured RC discharge curve from Arduino Serial Plotter" loading="lazy"><figcaption>08 / Experiment</figcaption></figure>
+          <div><p>Arduino / Data acquisition</p><h3>RC Transient</h3><span>Investigate why the capacitor discharged too fast &rarr;</span></div>
+        </a>
       </div>
     </section>
 
